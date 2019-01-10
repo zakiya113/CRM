@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69850" started-at="2019-01-02T11:10:18Z" finished-at="2019-01-02T11:11:28Z">
+  <suite name="Default suite" duration-ms="137847" started-at="2019-01-10T08:48:11Z" finished-at="2019-01-10T08:50:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69850" started-at="2019-01-02T11:10:18Z" finished-at="2019-01-02T11:11:28Z">
-      <class name="qa.Test.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:qa.Test.LoginPageTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="18379" started-at="2019-01-02T11:10:18Z" finished-at="2019-01-02T11:10:37Z">
+    <test name="Default test" duration-ms="137847" started-at="2019-01-10T08:48:11Z" finished-at="2019-01-10T08:50:29Z">
+      <class name="qa.Test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qa.Test.HomePageTest@6b9651f3]" name="setUp" is-config="true" duration-ms="79504" started-at="2019-01-10T08:48:11Z" finished-at="2019-01-10T08:49:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:qa.Test.LoginPageTest@1d8d30f7]" name="loginPageTitleTest" duration-ms="64" started-at="2019-01-02T11:10:37Z" finished-at="2019-01-02T11:10:37Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:qa.Test.HomePageTest@6b9651f3]" name="verifyHomePageTitleTest" duration-ms="57" started-at="2019-01-10T08:49:31Z" finished-at="2019-01-10T08:49:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:qa.Test.LoginPageTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="2072" started-at="2019-01-02T11:10:37Z" finished-at="2019-01-02T11:10:39Z">
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qa.Test.HomePageTest@6b9651f3]" name="tearDown" is-config="true" duration-ms="786" started-at="2019-01-10T08:49:31Z" finished-at="2019-01-10T08:49:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:qa.Test.LoginPageTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="15365" started-at="2019-01-02T11:10:39Z" finished-at="2019-01-02T11:10:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qa.Test.HomePageTest@6b9651f3]" name="setUp" is-config="true" duration-ms="26431" started-at="2019-01-10T08:49:32Z" finished-at="2019-01-10T08:49:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crmlogoImageTest()[pri:2, instance:qa.Test.LoginPageTest@1d8d30f7]" name="crmlogoImageTest" duration-ms="77" started-at="2019-01-02T11:10:54Z" finished-at="2019-01-02T11:10:54Z">
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:qa.Test.HomePageTest@6b9651f3]" name="verifyUserNameTest" duration-ms="239" started-at="2019-01-10T08:49:58Z" finished-at="2019-01-10T08:49:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crmlogoImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:qa.Test.LoginPageTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="840" started-at="2019-01-02T11:10:54Z" finished-at="2019-01-02T11:10:55Z">
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qa.Test.HomePageTest@6b9651f3]" name="tearDown" is-config="true" duration-ms="752" started-at="2019-01-10T08:49:58Z" finished-at="2019-01-10T08:49:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:qa.Test.LoginPageTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="13887" started-at="2019-01-02T11:10:55Z" finished-at="2019-01-02T11:11:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qa.Test.HomePageTest@6b9651f3]" name="setUp" is-config="true" duration-ms="26298" started-at="2019-01-10T08:49:59Z" finished-at="2019-01-10T08:50:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:qa.Test.LoginPageTest@1d8d30f7]" name="loginTest" duration-ms="18208" started-at="2019-01-02T11:11:09Z" finished-at="2019-01-02T11:11:27Z">
+        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:3, instance:qa.Test.HomePageTest@6b9651f3]" name="verifyContactsLinkTest" duration-ms="2986" started-at="2019-01-10T08:50:25Z" finished-at="2019-01-10T08:50:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:qa.Test.LoginPageTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="882" started-at="2019-01-02T11:11:27Z" finished-at="2019-01-02T11:11:28Z">
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qa.Test.HomePageTest@6b9651f3]" name="tearDown" is-config="true" duration-ms="756" started-at="2019-01-10T08:50:28Z" finished-at="2019-01-10T08:50:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- qa.Test.LoginPageTest -->
+      </class> <!-- qa.Test.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

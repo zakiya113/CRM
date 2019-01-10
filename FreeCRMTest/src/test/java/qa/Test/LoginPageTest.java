@@ -12,7 +12,7 @@ import qa.pages.LoginPage;
 
 
 public class LoginPageTest extends TestBase {
-	LoginPage loginpage;
+	LoginPage loginPage;
 	HomePage homepage;
 	
 	public LoginPageTest() {
@@ -22,27 +22,27 @@ public class LoginPageTest extends TestBase {
 		@BeforeMethod
 	public void setUp() {
 				initialization();
-		loginpage = new LoginPage();
+		loginPage = new LoginPage();
 		
 	}
 		
 		@Test(priority=1)
 		public void loginPageTitleTest() {
 			
-			 String title = loginpage.validateLoginPageTitle();
+			 String title = loginPage.validateLoginPageTitle();
 			 Assert.assertEquals(title,"#1 Free CRM software in the cloud for sales and service");
 		}
 		
 		
 		@Test(priority=2)
 		public void crmlogoImageTest() {
-			boolean flag = loginpage.validateCRMImage();
+			boolean flag = loginPage.validateCRMImage();
 			Assert.assertTrue(flag);
 		}
 		
 		@Test(priority=3)
 		public void loginTest() throws InterruptedException {
-			homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+			homepage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		}
 
 	@AfterMethod
